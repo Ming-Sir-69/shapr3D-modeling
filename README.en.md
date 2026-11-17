@@ -9,14 +9,14 @@
 <img alt="Documentation MIT" src="https://img.shields.io/badge/docs-MIT-F6C555?style=flat-square&amp;labelColor=2E2A26">
 <img alt="Models license unspecified" src="https://img.shields.io/badge/models-license_unspecified-A8A196?style=flat-square&amp;labelColor=2E2A26">
 <img alt="3MF" src="https://img.shields.io/badge/format-3MF-6B655C?style=flat-square&amp;labelColor=2E2A26">
-<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-F6C555?style=flat-square&amp;labelColor=2E2A26">
+<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-A8A196?style=flat-square&amp;labelColor=2E2A26">
 </p>
 
 <p align="center"><a href="README.md">简体中文</a> · <b>English</b></p>
 
 # Shapr3D model portfolio
 
-This repository archives four 3MF models: a fractal vise, a fractal structure, a grip-feel improvement design and a soap box. Mechanism geometry and shaped surfaces guide the collection; the deliverables are mesh files, with no application source code.
+This repository archives four 3MF models: a fractal vise, a fractal structure, a grip-feel improvement design and a soap box. The deliverables are mesh files, with no application source code.
 
 ## Overview
 
@@ -24,13 +24,13 @@ This repository archives four 3MF models: a fractal vise, a fractal structure, a
 | --- | --- |
 | [Fractal vise](分形虎钳.3mf) | Multi-part clamping mechanism |
 | [Fractal structure](分形结构.3mf) | Fractal-themed geometry |
-| [Grip-feel improvement](手感改善.3mf) | Grip-feel design study |
+| [Grip-feel improvement](手感改善.3mf) | Grip-feel themed form |
 | [Soap box](肥皂盒.3mf) | Household product structure |
 
 ## Design highlights
 
 - The fractal vise presents a multi-part clamping assembly; the figure below shows its actual mesh.
-- The fractal structure and grip-feel model provide separate geometry and form studies.
+- The fractal structure and grip-feel model provide separate geometry and form models.
 - The cover is an engineering-style illustration of a gear reducer and fractal vise. A reducer file is not included.
 
 ## Results

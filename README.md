@@ -9,14 +9,14 @@
 <img alt="Documentation MIT" src="https://img.shields.io/badge/docs-MIT-F6C555?style=flat-square&amp;labelColor=2E2A26">
 <img alt="Models license unspecified" src="https://img.shields.io/badge/models-license_unspecified-A8A196?style=flat-square&amp;labelColor=2E2A26">
 <img alt="3MF" src="https://img.shields.io/badge/format-3MF-6B655C?style=flat-square&amp;labelColor=2E2A26">
-<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-F6C555?style=flat-square&amp;labelColor=2E2A26">
+<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-A8A196?style=flat-square&amp;labelColor=2E2A26">
 </p>
 
 <p align="center"><b>简体中文</b> · <a href="README.en.md">English</a></p>
 
 # Shapr3D 建模作品集
 
-本仓库归档分形虎钳、分形结构、手感改善与肥皂盒四个 3MF 模型，以机构形态与曲面造型为主要阅读线索；当前交付物为网格文件，没有应用源码。
+本仓库归档分形虎钳、分形结构、手感改善与肥皂盒四个 3MF 模型。当前交付物为网格文件，没有应用源码。
 
 ## 概述
 
@@ -44,7 +44,7 @@
 
 ## 方法
 
-本项目以 Shapr3D 建模文件归档为范围。现有文件是 3MF 网格交换格式，未附原生工程、草图约束、参数或建模操作历史，不能据此还原具体建模步骤。Shapr3D 的官方文档列出 3MF 导出用途。<sup>[[1]](#参考文献)</sup>
+本项目以 Shapr3D 建模文件归档为范围。现有文件是 3MF 网格交换格式，未附原生工程、草图约束、参数或建模操作历史，不能据此还原具体建模步骤。Shapr3D 官方文档将 3MF 列为导出格式之一。<sup>[[1]](#参考文献)</sup>
 
 1. 下载所需模型，使用支持 3MF 的查看或切片工具导入。
 2. 文件内单位均声明为厘米；导入后仍须核对尺寸与缩放。3MF 的单位字段和网格结构依据格式规范读取。<sup>[[2]](#参考文献)</sup>
@@ -81,4 +81,4 @@
 ---
 
 文档维护：**✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-[文档原创表达：MIT](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md) · 模型许可未明确，见[权限说明](PERSONAL-NOTICE.md)。
+[文档原创表达：MIT](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md) · 模型许可未明确，见[许可说明](PERSONAL-NOTICE.md)。

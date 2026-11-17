@@ -4,9 +4,9 @@
 
 This license applies only to the original explanatory wording and header artwork created for this documentation refresh. It excludes pre-existing source code, data, materials, quoted text, third-party works and trademarks. Existing rights and component licenses remain in effect. The author's identity mark does not imply endorsement or grant access to devices, accounts or services.
 
-本许可仅适用于这次文档整理中新撰的原创说明与 页眉视觉。它不覆盖既有源码、数据、资料、引用文本、第三方作品或商标；这些内容的既有权利与组成部分许可继续适用。个人署名不表示背书，也不授予设备、账号或服务访问权限。
+本许可仅适用于这次文档整理中新撰的原创说明与页眉视觉。它不覆盖既有源码、数据、资料、引用文本、第三方作品或商标；这些内容的既有权利与组成部分许可继续适用。个人署名不表示背书，也不授予设备、账号或服务访问权限。
 
-Files / 文件：`README.md`, `README.en.md`, `PERSONAL-NOTICE.md`, `readme-assets/header-light.svg`, `readme-assets/header-dark.svg`, `readme-assets/cover-zh-light.png`, `readme-assets/cover-zh-dark.png`, `readme-assets/cover-en-light.png`, `readme-assets/cover-en-dark.png`
+Files / 文件：`README.md`, `README.en.md`, `PERSONAL-NOTICE.md`, `readme-assets/cover-zh-light.png`, `readme-assets/cover-zh-dark.png`, `readme-assets/cover-en-light.png`, `readme-assets/cover-en-dark.png`
 
 ## License terms
 
