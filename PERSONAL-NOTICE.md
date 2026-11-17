@@ -1,7 +1,7 @@
-# ✦ EricMingle69 · 个人维护与授权说明
+# <picture><source media="(prefers-color-scheme: dark)" srcset="readme-assets/em-logo-dark.svg"><img src="readme-assets/em-logo-light.svg" alt="EM" height="12"></picture> EricMingle69 · 个人维护与授权说明
 
 **GitHub 维护账户：** [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-**文档身份标志：** ✦ EricMingle69
+**文档身份标志：** <picture><source media="(prefers-color-scheme: dark)" srcset="readme-assets/em-logo-dark.svg"><img src="readme-assets/em-logo-light.svg" alt="EM" height="12"></picture> EricMingle69
 
 ## 署名的含义
 
@@ -13,18 +13,28 @@
 
 仓库尚无明确的根源码许可。本轮新撰文案与页眉视觉的许可单列在 [个人文档许可](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md)，仅覆盖其原创表达；源码、旧资料、数据和第三方原文不在该新增许可范围内。
 
-本轮文档文件清单：`README.md`、`README.en.md`、`PERSONAL-NOTICE.md`、`readme-assets/header-light.svg`、`readme-assets/header-dark.svg`。许可涉及这些文件中的原创新增表达，不覆盖其中保留的第三方原文。
+本轮文档文件清单：`README.md`, `README.en.md`, `PERSONAL-NOTICE.md`, `readme-assets/cover-zh-light.png`, `readme-assets/cover-zh-dark.png`, `readme-assets/cover-en-light.png`, `readme-assets/cover-en-dark.png`。许可涉及这些文件中的原创新增表达，不覆盖其中保留的第三方原文。
 
 使用、修改或再分发具体内容时，请保留适用的作者与许可说明。设备、账号、付费服务、工作资料或个人数据的访问权限由其实际管理者授予，文档署名不替代这些权限。
 
 ## Personal identity and permissions
 
-The GitHub maintainer is [Ming-Sir-69](https://github.com/Ming-Sir-69). **✦ EricMingle69** identifies the maintenance of this repository's documentation, bilingual navigation and header artwork. Third-party code, authors, trademarks and materials keep their original attribution. This mark does not claim their ownership or grant endorsement, account, device or service access.
+The GitHub maintainer is [Ming-Sir-69](https://github.com/Ming-Sir-69). <picture><source media="(prefers-color-scheme: dark)" srcset="readme-assets/em-logo-dark.svg"><img src="readme-assets/em-logo-light.svg" alt="EM" height="12"></picture> <b>EricMingle69</b> identifies the maintenance of this repository's documentation, bilingual navigation and header artwork. Third-party code, authors, trademarks and materials keep their original attribution. This mark does not claim their ownership or grant endorsement, account, device or service access.
 
 Where an existing license already names this maintainer, EricMingle69 is the personal documentation alias of Eric Mingle / Ming-Sir-69, not a separate third-party copyright holder.
 
 There is no established root source-code license. The [personal documentation license](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md) covers only the original wording and header artwork created for this documentation refresh. It does not grant new rights over source code, existing materials, data or third-party excerpts.
 
-Documentation files in this refresh: `README.md`、`README.en.md`、`PERSONAL-NOTICE.md`、`readme-assets/header-light.svg`、`readme-assets/header-dark.svg`. Any documentation license applies to their original new expression, not retained third-party text.
+Documentation files in this refresh: `README.md`, `README.en.md`, `PERSONAL-NOTICE.md`, `readme-assets/cover-zh-light.png`, `readme-assets/cover-zh-dark.png`, `readme-assets/cover-en-light.png`, `readme-assets/cover-en-dark.png`. Any documentation license applies to their original new expression, not retained third-party text.
 
 When using, adapting or redistributing content, retain its applicable author and license notices. Access to devices, accounts, paid services, work materials or personal data requires permission from their actual administrator.
+
+
+模型视图 `readme-assets/vise-light.png`、`readme-assets/vise-dark.png` 来自既有模型；不因文档许可新增模型授权。
+
+Model figures `readme-assets/vise-light.png` and `readme-assets/vise-dark.png` derive from existing models; the documentation license grants no additional model rights.
+
+
+个人 logo 文件：`readme-assets/em-logo-light.svg`、`readme-assets/em-logo-dark.svg`；仅用于维护身份标识，既有权限说明不变。
+
+Personal logo files identify the maintainer; existing permission terms remain unchanged.
