@@ -1,45 +1,84 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="readme-assets/header-light.svg">
-  <img alt="Shapr3D 建模文件索引 · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/cover-zh-dark.png">
+  <img src="readme-assets/cover-zh-light.png" alt="Shapr3D 建模作品集" width="100%">
 </picture>
 
+<p align="center"><a href="分形虎钳.3mf">分形虎钳</a> · <a href="分形结构.3mf">分形结构</a> · <a href="PERSONAL-NOTICE.md">许可说明</a></p>
+
 <p align="center">
-  <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="PERSONAL-NOTICE.md">✦ EricMingle69</a>
+<img alt="Documentation MIT" src="https://img.shields.io/badge/docs-MIT-F6C555?style=flat-square&amp;labelColor=2E2A26">
+<img alt="Models license unspecified" src="https://img.shields.io/badge/models-license_unspecified-A8A196?style=flat-square&amp;labelColor=2E2A26">
+<img alt="3MF" src="https://img.shields.io/badge/format-3MF-6B655C?style=flat-square&amp;labelColor=2E2A26">
+<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-F6C555?style=flat-square&amp;labelColor=2E2A26">
 </p>
 
-# Shapr3D 建模文件索引
+<p align="center"><b>简体中文</b> · <a href="README.en.md">English</a></p>
 
-## 项目定位
+# Shapr3D 建模作品集
 
-保存四个 3MF 建模文件，供浏览、下载和补充模型说明；目前是文件归档，没有应用源码。
+本仓库归档分形虎钳、分形结构、手感改善与肥皂盒四个 3MF 模型，以机构形态与曲面造型为主要阅读线索；当前交付物为网格文件，没有应用源码。
 
-## 阅读入口
+## 概述
 
-| 入口 | 内容 |
+| 模型 | 归档内容 |
 | --- | --- |
-| [分形结构](分形结构.3mf) | 现有 3MF 文件 |
-| [分形虎钳](分形虎钳.3mf) | 现有 3MF 文件 |
-| [手感改善](手感改善.3mf) | 现有 3MF 文件 |
-| [肥皂盒](肥皂盒.3mf) | 现有 3MF 文件 |
+| [分形虎钳](分形虎钳.3mf) | 多零件夹持机构 |
+| [分形结构](分形结构.3mf) | 分形主题几何结构 |
+| [手感改善](手感改善.3mf) | 手感改善主题造型 |
+| [肥皂盒](肥皂盒.3mf) | 日用品结构模型 |
 
-## 从哪里开始
+## 设计要点
 
-1. 在 Code 页面逐个下载文件，或下载仓库副本。
-2. 使用支持 3MF 的查看、建模或切片工具导入。
-3. 开始加工或打印前，先确认工具兼容性、单位、尺寸、材料与模型完整性。
+- 分形虎钳以多零件装配形态呈现夹持机构，正文展示来自该文件的实际网格。
+- 分形结构与手感改善分别提供几何结构和造型方向的模型入口。
+- 封面采用减速器与分形虎钳的工程风格插画；减速器文件尚未收录。
 
-## 使用边界
+## 成果展示
 
-- 原上传说明表示大型模型未全部上传，计划拆分并分批补充；当前只以现有文件为范围。
-- 工具版本、单位、导入兼容性和可打印性未经确认。
-- 文件名只用于定位，不构成强度、尺寸或制造适用性承诺。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/vise-dark.png">
+  <img src="readme-assets/vise-light.png" alt="分形虎钳 3MF 实际网格视图" width="100%">
+</picture>
 
-## 来源与原有许可
+上图直接读取 `分形虎钳.3mf` 的三角网格绘制，保留文件内零件位置。
 
-模型的具体作者、来源以及使用、修改、再分发范围尚未明确。原仓库没有 LICENSE/NOTICE，维护身份不替代模型作者归属。
+## 方法
+
+本项目以 Shapr3D 建模文件归档为范围。现有文件是 3MF 网格交换格式，未附原生工程、草图约束、参数或建模操作历史，不能据此还原具体建模步骤。Shapr3D 的官方文档列出 3MF 导出用途。<sup>[[1]](#参考文献)</sup>
+
+1. 下载所需模型，使用支持 3MF 的查看或切片工具导入。
+2. 文件内单位均声明为厘米；导入后仍须核对尺寸与缩放。3MF 的单位字段和网格结构依据格式规范读取。<sup>[[2]](#参考文献)</sup>
+3. 加工或打印前，检查零件间隙、网格完整性、材料和装配条件。
+
+## 局限
+
+- 原上传说明指出大型模型未全部上传；当前范围以表中四个文件为准。
+- 建模软件版本、导出设置、导入兼容性、可打印性与机构性能未经验证。
+- 文件内单位声明不代表尺寸经过实物校准；没有载荷、强度或寿命试验数据。
+- 模型作者归属、来源与使用、修改、再分发权限尚未明确；文档许可不覆盖模型。
+
+## 致谢
+
+感谢 Shapr3D 与 3MF Consortium 提供软件及格式文档。封面插画由图像生成模型生成，经本项目处理；正文模型视图由仓库内网格绘制。
+
+## 参考文献
+
+1. Shapr3D. [How to export files from Shapr3D](https://support.shapr3d.com/hc/en-us/articles/7874524196764-How-to-export-files-from-Shapr3D). 软件文档：导出格式。
+2. 3MF Consortium. [3MF Core Specification, v1.3.0](https://3mf.io/spec/core-v1-3-0/). 格式规范：单位、资源与三角网格。
+
+## 仓库结构
+
+```text
+├── 分形虎钳.3mf
+├── 分形结构.3mf
+├── 手感改善.3mf
+├── 肥皂盒.3mf
+├── README.md / README.en.md
+├── PERSONAL-NOTICE.md
+└── readme-assets/              封面、模型视图与文档许可
+```
 
 ---
 
 文档维护：**✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-[个人标识、许可与权限说明](PERSONAL-NOTICE.md) · 明暗页眉随 GitHub 主题自动切换。
+[文档原创表达：MIT](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md) · 模型许可未明确，见[权限说明](PERSONAL-NOTICE.md)。

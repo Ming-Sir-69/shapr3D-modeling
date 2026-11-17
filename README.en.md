@@ -1,45 +1,84 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="readme-assets/header-light.svg">
-  <img alt="Shapr3D Model File Index · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/cover-en-dark.png">
+  <img src="readme-assets/cover-en-light.png" alt="Shapr3D model portfolio" width="100%">
 </picture>
 
+<p align="center"><a href="分形虎钳.3mf">Fractal vise</a> · <a href="分形结构.3mf">Fractal structure</a> · <a href="PERSONAL-NOTICE.md">Permissions</a></p>
+
 <p align="center">
-  <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="PERSONAL-NOTICE.md">✦ EricMingle69</a>
+<img alt="Documentation MIT" src="https://img.shields.io/badge/docs-MIT-F6C555?style=flat-square&amp;labelColor=2E2A26">
+<img alt="Models license unspecified" src="https://img.shields.io/badge/models-license_unspecified-A8A196?style=flat-square&amp;labelColor=2E2A26">
+<img alt="3MF" src="https://img.shields.io/badge/format-3MF-6B655C?style=flat-square&amp;labelColor=2E2A26">
+<img alt="4 files" src="https://img.shields.io/badge/archive-4_files-F6C555?style=flat-square&amp;labelColor=2E2A26">
 </p>
 
-# Shapr3D Model File Index
+<p align="center"><a href="README.md">简体中文</a> · <b>English</b></p>
 
-## Purpose
+# Shapr3D model portfolio
 
-An archive of four 3MF model files for browsing, downloading and documenting models, rather than an application source repository.
+This repository archives four 3MF models: a fractal vise, a fractal structure, a grip-feel improvement design and a soap box. Mechanism geometry and shaped surfaces guide the collection; the deliverables are mesh files, with no application source code.
 
-## Repository guide
+## Overview
 
-| Entry | Contents |
+| Model | Archived content |
 | --- | --- |
-| [Fractal structure](分形结构.3mf) | Available 3MF file |
-| [Fractal vise](分形虎钳.3mf) | Available 3MF file |
-| [Grip-feel improvement](手感改善.3mf) | Available 3MF file |
-| [Soap box](肥皂盒.3mf) | Available 3MF file |
+| [Fractal vise](分形虎钳.3mf) | Multi-part clamping mechanism |
+| [Fractal structure](分形结构.3mf) | Fractal-themed geometry |
+| [Grip-feel improvement](手感改善.3mf) | Grip-feel design study |
+| [Soap box](肥皂盒.3mf) | Household product structure |
 
-## Getting started
+## Design highlights
 
-1. Download individual files from the Code page, or obtain a repository copy.
-2. Import them with a 3MF-compatible viewer, modeling application or slicer.
-3. Before fabrication or printing, establish tool compatibility, units, dimensions, materials and model completeness.
+- The fractal vise presents a multi-part clamping assembly; the figure below shows its actual mesh.
+- The fractal structure and grip-feel model provide separate geometry and form studies.
+- The cover is an engineering-style illustration of a gear reducer and fractal vise. A reducer file is not included.
 
-## Scope and limitations
+## Results
 
-- The original upload note says large models were not fully uploaded and would be split into batches; current scope is limited to the files present.
-- Tool versions, units, import compatibility and printability are unconfirmed.
-- Filenames identify material and do not establish strength, dimensions or manufacturing suitability.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme-assets/vise-dark.png">
+  <img src="readme-assets/vise-light.png" alt="Actual mesh from the fractal vise 3MF file" width="100%">
+</picture>
 
-## Sources and existing licenses
+The figure is drawn directly from the triangles in `分形虎钳.3mf`, preserving the stored part positions.
 
-Model authorship, provenance and rights to use, modify or redistribute are unspecified. The original repository has no LICENSE/NOTICE; maintenance identity does not replace model-author attribution.
+## Method
+
+The project archives Shapr3D modeling files. The available files use the 3MF mesh exchange format; native projects, sketch constraints, parameters and modeling history are absent, so the original modeling steps cannot be reconstructed. Shapr3D documents 3MF among its export formats.<sup>[[1]](#references)</sup>
+
+1. Download a model and import it into a 3MF-compatible viewer or slicer.
+2. All four files declare centimeters. Check dimensions and scale after import. Unit fields and mesh structures are read according to the 3MF specification.<sup>[[2]](#references)</sup>
+3. Check clearances, mesh integrity, materials and assembly conditions before fabrication or printing.
+
+## Limitations
+
+- The original upload note states that large models were not fully uploaded; scope is limited to the four listed files.
+- Modeling software versions, export settings, import compatibility, printability and mechanism performance remain unverified.
+- Declared units do not establish physical dimensional accuracy. No load, strength or service-life test data is included.
+- Model authorship, provenance and rights to use, modify or redistribute remain unspecified. The documentation license does not cover models.
+
+## Acknowledgements
+
+Thanks to Shapr3D and the 3MF Consortium for software and format documentation. The cover illustration was generated by an image generation model and processed for this project. The model figure was rendered from the repository mesh.
+
+## References
+
+1. Shapr3D. [How to export files from Shapr3D](https://support.shapr3d.com/hc/en-us/articles/7874524196764-How-to-export-files-from-Shapr3D). Software documentation: export formats.
+2. 3MF Consortium. [3MF Core Specification, v1.3.0](https://3mf.io/spec/core-v1-3-0/). Format specification: units, resources and triangle meshes.
+
+## Repository structure
+
+```text
+├── 分形虎钳.3mf
+├── 分形结构.3mf
+├── 手感改善.3mf
+├── 肥皂盒.3mf
+├── README.md / README.en.md
+├── PERSONAL-NOTICE.md
+└── readme-assets/              Covers, model figures and documentation license
+```
 
 ---
 
 Documentation maintained by **✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-[Personal identity, licensing and permissions](PERSONAL-NOTICE.md) · The header follows your GitHub theme.
+[Original documentation: MIT](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md) · Model license unspecified; see [permissions](PERSONAL-NOTICE.md).
