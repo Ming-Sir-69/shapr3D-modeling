@@ -31,7 +31,6 @@ This repository archives four 3MF models: a fractal vise, a fractal structure, a
 
 - The fractal vise presents a multi-part clamping assembly; the figure below shows its actual mesh.
 - The fractal structure and grip-feel model provide separate geometry and form models.
-- The cover is an engineering-style illustration of a gear reducer and fractal vise. A reducer file is not included.
 
 ## Results
 
@@ -41,6 +40,8 @@ This repository archives four 3MF models: a fractal vise, a fractal structure, a
 </picture>
 
 The figure is drawn directly from the triangles in `分形虎钳.3mf`, preserving the stored part positions.
+
+The cover illustration includes a gear reducer; this model is not included in the repository.
 
 ## Method
 
