@@ -1,4 +1,4 @@
-# Personal documentation license · ✦ EricMingle69
+# Personal documentation license · <picture><source media="(prefers-color-scheme: dark)" srcset="em-logo-dark.svg"><img src="em-logo-light.svg" alt="EM" height="12"></picture> EricMingle69
 
 ## Scope / 适用范围
 
@@ -38,3 +38,8 @@ SOFTWARE.
 模型视图 `readme-assets/vise-light.png`、`readme-assets/vise-dark.png` 来自既有模型；不因文档许可新增模型授权。
 
 Model figures `readme-assets/vise-light.png` and `readme-assets/vise-dark.png` derive from existing models; the documentation license grants no additional model rights.
+
+
+个人 logo 文件：`readme-assets/em-logo-light.svg`、`readme-assets/em-logo-dark.svg`；仅用于维护身份标识，既有权限说明不变。
+
+Personal logo files identify the maintainer; existing permission terms remain unchanged.
